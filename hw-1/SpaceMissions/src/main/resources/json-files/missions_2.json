@@ -1,0 +1,61 @@
+[
+  {
+    "planetName": "Mars",
+    "missionYear": 2025,
+    "spaceships": [
+      {
+        "spaceshipName": "Red Rocket",
+        "destinationPlanet": "Mars",
+        "capacity": 10
+      },
+      {
+        "spaceshipName": "Martian Explorer",
+        "destinationPlanet": "Mars",
+        "capacity": 15
+      }
+    ]
+  },
+  {
+    "planetName": "Mars",
+    "missionYear": 2029,
+    "spaceships": [
+      {
+        "spaceshipName": "Red Rocket",
+        "destinationPlanet": "Mars",
+        "capacity": 10
+      },
+      {
+        "spaceshipName": "Martian Explorer",
+        "destinationPlanet": "Mars",
+        "capacity": 15
+      }
+    ]
+  },
+  {
+    "planetName": "Venus",
+    "missionYear": 2030,
+    "spaceships": [
+      {
+        "spaceshipName": "Solar Flyer",
+        "destinationPlanet": "Venus",
+        "capacity": 12
+      }
+    ]
+  },
+  {
+    "planetName": "Jupiter",
+    "missionYear": 2035,
+    "spaceships": [
+      {
+        "spaceshipName": "Galactic Explorer",
+        "destinationPlanet": "Jupiter",
+        "capacity": 20
+      },
+      {
+        "spaceshipName": "Star Voyager",
+        "destinationPlanet": "Jupiter",
+        "capacity": 15
+      }
+    ]
+  }
+]

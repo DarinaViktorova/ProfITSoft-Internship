@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<missionStatistics>
+    <totalMissions>4</totalMissions>
+    <totalSpaceships>0</totalSpaceships>
+    <attributeStatistics>
+        <entry>
+            <key>Mars</key>
+            <value>4</value>
+        </entry>
+        <entry>
+            <key>Jupiter</key>
+            <value>2</value>
+        </entry>
+        <entry>
+            <key>Venus</key>
+            <value>2</value>
+        </entry>
+    </attributeStatistics>
+</missionStatistics>

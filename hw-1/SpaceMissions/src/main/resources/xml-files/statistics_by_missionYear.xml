@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<missionStatistics>
+    <totalMissions>6</totalMissions>
+    <totalSpaceships>0</totalSpaceships>
+    <attributeStatistics>
+        <entry>
+            <key>2029</key>
+            <value>2</value>
+        </entry>
+        <entry>
+            <key>2025</key>
+            <value>2</value>
+        </entry>
+        <entry>
+            <key>2035</key>
+            <value>2</value>
+        </entry>
+        <entry>
+            <key>2030</key>
+            <value>2</value>
+        </entry>
+    </attributeStatistics>
+</missionStatistics>

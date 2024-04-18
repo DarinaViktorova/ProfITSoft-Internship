@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<missionStatistics>
+    <totalMissions>2</totalMissions>
+    <totalSpaceships>0</totalSpaceships>
+    <attributeStatistics>
+        <entry>
+            <key>1</key>
+            <value>2</value>
+        </entry>
+        <entry>
+            <key>2</key>
+            <value>6</value>
+        </entry>
+    </attributeStatistics>
+</missionStatistics>
