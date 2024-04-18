@@ -15,5 +15,9 @@ Represents a spaceship used in a space mission with the following attributes:
 - Add New Mission: Users can add new missions by providing details such as planet name, mission year, and associated spaceships.
 - Display All Missions: View detailed information about all missions stored in the system.
 - Get Statistics: Generate mission statistics based on attributes like planet name, mission year, or spaceship count across multiple missions.
-## Getting Start
+## Getting Started
 To use this application, ensure you have Java installed on your system. Clone this repository using Git:
+```
+git clone https://github.com/your-username/space-mission-control.git
+```
+Ensure that you have JDK 17 or a higher version installed on your system to successfully compile and run the application.
