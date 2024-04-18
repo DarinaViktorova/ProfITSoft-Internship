@@ -4,5 +4,10 @@ The Space Mission Control System is a Java-based application designed to manage 
 ### 1. Mission
 Represents a space mission with the following attributes:
 - Planet Name: The name of the planet associated with the mission.
-- Mission Year: The year in which the mission took place.
+- Mission Year: The year in which the mission takes place or took place.
 - Spaceships: A list of spaceships assigned to the mission.
+### 2. Spaceship
+Represents a spaceship used in a space mission with the following attributes:
+- Spactship Name:  The name or identifier of the spaceship.
+- Destination Planet: The destination planet assigned to the spaceship.
+- Capacity: The capacity or passenger limit of the spaceship.
