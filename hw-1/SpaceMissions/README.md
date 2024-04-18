@@ -18,7 +18,7 @@ Represents a spaceship used in a space mission with the following attributes:
 ## Getting Started
 To use this application, ensure you have Java installed on your system. Clone this repository using Git:
 ```
-git clone https://github.com/your-username/space-mission-control.git
+git clone https://github.com/DarinaViktorova/ProfITSoft-Internship.git
 ```
 Ensure that you have JDK 17 or a higher version installed on your system to successfully compile and run the application. <br/>
 You can start working with app using `Main` class.
