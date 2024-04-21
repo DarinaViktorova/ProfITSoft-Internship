@@ -22,3 +22,92 @@ git clone https://github.com/DarinaViktorova/ProfITSoft-Internship.git
 ```
 Ensure that you have JDK 17 or a higher version installed on your system to successfully compile and run the application. <br/>
 You can start working with app using `Main` class.
+## Input/output examples files
+### Input
+For example, consider the following JSON file containing mission data:
+```
+[
+  {
+    "planetName": "Mars",
+    "missionYear": 2025,
+    "spaceships": [
+      {
+        "spaceshipName": "Red Rocket",
+        "destinationPlanet": "Mars",
+        "capacity": 10
+      },
+      {
+        "spaceshipName": "Martian Explorer",
+        "destinationPlanet": "Mars",
+        "capacity": 15
+      }
+    ]
+  },
+  {
+    "planetName": "Mars",
+    "missionYear": 2029,
+    "spaceships": [
+      {
+        "spaceshipName": "Red Rocket",
+        "destinationPlanet": "Mars",
+        "capacity": 10
+      },
+      {
+        "spaceshipName": "Martian Explorer",
+        "destinationPlanet": "Mars",
+        "capacity": 15
+      }
+    ]
+  },
+  {
+    "planetName": "Venus",
+    "missionYear": 2030,
+    "spaceships": [
+      {
+        "spaceshipName": "Solar Flyer",
+        "destinationPlanet": "Venus",
+        "capacity": 12
+      }
+    ]
+  },
+  {
+    "planetName": "Jupiter",
+    "missionYear": 2035,
+    "spaceships": [
+      {
+        "spaceshipName": "Galactic Explorer",
+        "destinationPlanet": "Jupiter",
+        "capacity": 20
+      },
+      {
+        "spaceshipName": "Star Voyager",
+        "destinationPlanet": "Jupiter",
+        "capacity": 15
+      }
+    ]
+  }
+]
+```
+### Output
+After processing the data, the corrected statistics XML will appear as follows:
+```
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<missionStatistics>
+    <totalMissions>3</totalMissions>
+    <totalSpaceships>0</totalSpaceships>
+    <attributeStatistics>
+        <entry>
+            <key>Mars</key>
+            <value>2</value>
+        </entry>
+        <entry>
+            <key>Jupiter</key>
+            <value>1</value>
+        </entry>
+        <entry>
+            <key>Venus</key>
+            <value>1</value>
+        </entry>
+    </attributeStatistics>
+</missionStatistics>
+```
