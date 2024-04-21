@@ -113,4 +113,22 @@ After processing the data, the corrected statistics XML will appear as follows:
 ```
 For this example, the statistics are provided based on the "planetName" attribute. <br/>
 You can also output the statistics to the console.
-![Statistics result](https://github.com/DarinaViktorova/ProfITSoft-Internship/blob/main/images/res_statistic.png)
+![Statistics result](https://github.com/DarinaViktorova/ProfITSoft-Internship/blob/main/images/res_statistic.png) <br/>
+As a result, there are two missions to Mars, one mission to Jupiter, and one mission to Venus.
+## Experimenting with Thread Counts
+Let's conduct an experiment. We have 2 JSON format files, each containing 4 objects. By varying the number of threads, we will obtain the following total processing time for threads (milliseconds).
+| Number of Threads | Total Processing Time (ms) |
+|-------------------|----------------------------|
+| 1                 | 101                        |
+| 2                 | 98                        |
+| 4                 | 93                        |
+| 8                 | 93                        |
+<br/>
+Let's move on to the next experiment. We have 7 JSON files containing between 4 and 100 objects each. Here are the results obtained:
+
+| Number of Threads | Total Processing Time (ms) |
+|-------------------|----------------------------|
+| 1                 | 190                        |
+| 2                 | 108                        |
+| 4                 | 109                        |
+| 8                 | 102                        |
