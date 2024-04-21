@@ -25,7 +25,7 @@ You can start working with app using `Main` class.
 ## Input/output examples files
 ### Input
 For example, consider the following JSON file containing mission data:
-```
+```json
 [
   {
     "planetName": "Mars",
@@ -90,7 +90,7 @@ For example, consider the following JSON file containing mission data:
 ```
 ### Output
 After processing the data, the corrected statistics XML will appear as follows:
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <missionStatistics>
     <totalMissions>3</totalMissions>
@@ -111,4 +111,6 @@ After processing the data, the corrected statistics XML will appear as follows:
     </attributeStatistics>
 </missionStatistics>
 ```
-For this example, the statistics are provided based on the "planetName" attribute.
+For this example, the statistics are provided based on the "planetName" attribute. <br/>
+You can also output the statistics to the console.
+![Statistics result](https://github.com/DarinaViktorova/ProfITSoft-Internship/blob/main/images/res_statistic.png)
