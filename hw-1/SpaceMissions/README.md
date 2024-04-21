@@ -111,3 +111,4 @@ After processing the data, the corrected statistics XML will appear as follows:
     </attributeStatistics>
 </missionStatistics>
 ```
+For this example, the statistics are provided based on the "planetName" attribute.
