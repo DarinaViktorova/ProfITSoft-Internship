@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c11cf166-2aeb-42e1-9693-0191e3b21f98" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../hw-1/SpaceMissions/src/main/java/my/space/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-1/SpaceMissions/src/main/java/my/space/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-1/SpaceMissions/src/main/resources/json-files/missions_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-1/SpaceMissions/src/main/resources/json-files/missions_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-1/SpaceMissions/src/main/resources/xml-files/missions_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-1/SpaceMissions/src/main/resources/json-files/missions_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw-1/SpaceMissions/src/main/resources/xml-files/statistics_by_planetName.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw-1/SpaceMissions/src/main/resources/xml-files/statistics_by_planetName.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/res_statistic.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2fYVfUENI1u7HShdplKTAdEe19i" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SpaceMissionsApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dariv/GitProjects/ProfITSoft-Internship/hw-2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\dariv\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="a2bdaa5e-458e-464e-b96c-e1a7d2a206b9" reportId="hw-2/qodana/2024-05-16" />
+    </option>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c11cf166-2aeb-42e1-9693-0191e3b21f98" name="Changes" comment="" />
+      <created>1713978107604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713978107604</updated>
+      <workItem from="1713978108924" duration="4164000" />
+      <workItem from="1715625838017" duration="4694000" />
+      <workItem from="1715808371288" duration="1667000" />
+      <workItem from="1715871399906" duration="1198000" />
+      <workItem from="1715872775438" duration="263000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
