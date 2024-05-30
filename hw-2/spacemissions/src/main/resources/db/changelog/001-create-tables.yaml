@@ -1,7 +1,7 @@
 databaseChangeLog:
   - changeSet:
       id: 001-create-tables
-      author: 9:38169cd2de2cd9514bbd3d31d2ce453a
+      author: 9:619b99141e7b81713d4a3dd5fdc7910b
       preConditions:
         onFail: MARK_RAN
         sqlCheck:
