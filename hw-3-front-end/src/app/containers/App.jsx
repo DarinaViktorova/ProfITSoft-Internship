@@ -26,6 +26,9 @@ import IntlProvider from '../components/IntlProvider';
 import MissedPage from '../components/MissedPage';
 import SearchParamsConfigurator from '../components/SearchParamsConfigurator';
 
+import MissionList from 'pages/mission-list/MissionList';
+import MissionDetail from 'pages/mission-list/MissionDetail';
+
 function App() {
   const dispatch = useDispatch();
   const [state, setState] = useState({
@@ -72,7 +75,7 @@ function App() {
                 {!isFetchingUser && (
                   <Routes>
                     <Route
-                      element={<DefaultPage />}
+                      element={<MissionList />}
                       path={`${pageURLs[pages.defaultPage]}`}
                     />
                     <Route
@@ -112,6 +115,14 @@ function App() {
                         />
                       )}
                       path={`${pageURLs[pages.login]}`}
+                    />
+                    <Route
+                      element={<MissionList />}
+                      path="/missions"
+                    />
+                    <Route
+                      element={<MissionDetail />}
+                      path="/missions/:id"
                     />
                     <Route
                       element={(

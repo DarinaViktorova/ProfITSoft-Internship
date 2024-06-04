@@ -1,65 +1,65 @@
 databaseChangeLog:
         - changeSet:
                 id: 002-insert-data
-                author: 9:38169cd2de2cd9514bbd3d31d2ce453a
+                author: 9:619b99141e7b81713d4a3dd5fdc7910b
                 changes:
                         - insert:
                                   tableName: mission
                                   columns:
                                           - column:
                                                     name: id
-                                                    value: "1"
+                                                    value: "5"
                                           - column:
                                                     name: planet_name
                                                     value: Mars
                                           - column:
                                                     name: mission_year
-                                                    value: "2025"
+                                                    value: "2036"
 
                         - insert:
                                 tableName: spaceship
                                 columns:
                                           - column:
                                                 name: id
-                                                value: "1"
+                                                value: "6"
                                           - column:
                                                 name: spaceship_name
-                                                value: Red Rocket
+                                                value: Red Rocket-2
                                           - column:
                                                 name: destination_planet
                                                 value: Mars
                                           - column:
                                                 name: capacity
-                                                value: "10"
+                                                value: "70"
                                           - column:
                                                 name: mission_id
-                                                value: "1"
+                                                value: "5"
 
                         - insert:
                                 tableName: spaceship
                                 columns:
                                         - column:
                                                 name: id
+                                                value: "7"
+                                        - column:
+                                                name: spaceship_name
+                                                value: Martian Explorer MINI
+                                        - column:
+                                                name: destination_planet
+                                                value: Mars
+                                        - column:
+                                                name: capacity
                                                 value: "2"
                                         - column:
-                                                name: spaceship_name
-                                                value: Martian Explorer
-                                        - column:
-                                                name: destination_planet
-                                                value: Mars
-                                        - column:
-                                                name: capacity
-                                                value: "15"
-                                        - column:
                                                 name: mission_id
-                                                value: "1"
+                                                value: "5"
 
                         - insert:
                                 tableName: mission
                                 columns:
                                         - column:
                                                 name: id
-                                                value: "2"
+                                                value: "6"
                                         - column:
                                                 name: planet_name
                                                 value: Jupiter
@@ -72,16 +72,16 @@ databaseChangeLog:
                                 columns:
                                         - column:
                                                 name: id
-                                                value: "3"
+                                                value: "8"
                                         - column:
                                                 name: spaceship_name
-                                                value: Jupiter Voyager
+                                                value: Space Voyager
                                         - column:
                                                 name: destination_planet
                                                 value: Jupiter
                                         - column:
                                                 name: capacity
-                                                value: "20"
+                                                value: "12"
                                         - column:
                                                 name: mission_id
-                                                value: "2"
+                                                value: "6"
