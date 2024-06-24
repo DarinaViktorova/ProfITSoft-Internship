@@ -1,0 +1,87 @@
+databaseChangeLog:
+        - changeSet:
+                id: 002-insert-data
+                author: 9:619b99141e7b81713d4a3dd5fdc7910b
+                changes:
+                        - insert:
+                                  tableName: mission
+                                  columns:
+                                          - column:
+                                                    name: id
+                                                    value: "5"
+                                          - column:
+                                                    name: planet_name
+                                                    value: Mars
+                                          - column:
+                                                    name: mission_year
+                                                    value: "2036"
+
+                        - insert:
+                                tableName: spaceship
+                                columns:
+                                          - column:
+                                                name: id
+                                                value: "6"
+                                          - column:
+                                                name: spaceship_name
+                                                value: Red Rocket-2
+                                          - column:
+                                                name: destination_planet
+                                                value: Mars
+                                          - column:
+                                                name: capacity
+                                                value: "70"
+                                          - column:
+                                                name: mission_id
+                                                value: "5"
+
+                        - insert:
+                                tableName: spaceship
+                                columns:
+                                        - column:
+                                                name: id
+                                                value: "7"
+                                        - column:
+                                                name: spaceship_name
+                                                value: Martian Explorer MINI
+                                        - column:
+                                                name: destination_planet
+                                                value: Mars
+                                        - column:
+                                                name: capacity
+                                                value: "2"
+                                        - column:
+                                                name: mission_id
+                                                value: "5"
+
+                        - insert:
+                                tableName: mission
+                                columns:
+                                        - column:
+                                                name: id
+                                                value: "6"
+                                        - column:
+                                                name: planet_name
+                                                value: Jupiter
+                                        - column:
+                                                name: mission_year
+                                                value: "2030"
+
+                        - insert:
+                                tableName: spaceship
+                                columns:
+                                        - column:
+                                                name: id
+                                                value: "8"
+                                        - column:
+                                                name: spaceship_name
+                                                value: Space Voyager
+                                        - column:
+                                                name: destination_planet
+                                                value: Jupiter
+                                        - column:
+                                                name: capacity
+                                                value: "12"
+                                        - column:
+                                                name: mission_id
+                                                value: "6"

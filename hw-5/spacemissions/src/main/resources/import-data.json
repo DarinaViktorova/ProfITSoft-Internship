@@ -1,0 +1,29 @@
+[
+  {
+    "planetName": "Mars",
+    "missionYear": 2025,
+    "spaceships": [
+      {
+        "spaceshipName": "Red Rocket",
+        "destinationPlanet": "Mars",
+        "capacity": 10
+      },
+      {
+        "spaceshipName": "Martian Explorer",
+        "destinationPlanet": "Mars",
+        "capacity": 15
+      }
+    ]
+  },
+  {
+    "planetName": "Jupiter",
+    "missionYear": 2030,
+    "spaceships": [
+      {
+        "spaceshipName": "Jupiter Voyager",
+        "destinationPlanet": "Jupiter",
+        "capacity": 20
+      }
+    ]
+  }
+]

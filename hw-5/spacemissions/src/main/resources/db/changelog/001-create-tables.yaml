@@ -1,0 +1,50 @@
+databaseChangeLog:
+  - changeSet:
+      id: 001-create-tables
+      author: 9:619b99141e7b81713d4a3dd5fdc7910b
+      preConditions:
+        onFail: MARK_RAN
+        sqlCheck:
+          expectedResult: 0
+          sql: SELECT COUNT(*) FROM information_schema.tables WHERE table_name = 'mission'
+      changes:
+        - createTable:
+            tableName: mission
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: planet_name
+                  type: VARCHAR(255)
+              - column:
+                  name: mission_year
+                  type: INT
+        - createTable:
+            tableName: spaceship
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: spaceship_name
+                  type: VARCHAR(255)
+              - column:
+                  name: destination_planet
+                  type: VARCHAR(255)
+              - column:
+                  name: capacity
+                  type: INT
+              - column:
+                  name: mission_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_spaceship_mission
+                    references: mission(id)

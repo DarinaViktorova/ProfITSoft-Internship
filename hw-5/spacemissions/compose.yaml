@@ -1,0 +1,12 @@
+services:
+  postgres:
+    container_name: postgres
+    image: postgres
+    environment:
+      POSTGRES_USER: darivita
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: spacemissions
+      PGDATA: /data/postgres
+    ports:
+      - "5432"
+    restart: unless-stopped
